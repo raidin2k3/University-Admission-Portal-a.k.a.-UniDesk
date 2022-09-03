@@ -15,4 +15,4 @@ The project includes use of the following components-
 It starts with the JFrame named 'loading_page' and consists of more than 10 JFrames that have different functionality with respect to various buttons
 added in each JFrame. It works well with Xampp Server which allows smooth connection with Apache Server and MySql Server along with Yahoo SMTP Server.
 
-The project is self made and took hardwork of over 1-2 month(s).
+The project took hardwork of over 1-2 month(s).
