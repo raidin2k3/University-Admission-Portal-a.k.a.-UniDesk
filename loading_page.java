@@ -73,7 +73,7 @@ public class loading_page extends javax.swing.JFrame {
         LoadingValue.setText("0%");
 
         jLabel6.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lester Greeks\\Downloads\\output-onlinegiftools.gif")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon("filepath")); 
         jLabel6.setText("jLabel6");
 
         javax.swing.GroupLayout kGradientPanel1Layout = new javax.swing.GroupLayout(kGradientPanel1);
