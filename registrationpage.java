@@ -258,10 +258,10 @@ public class registrationpage extends javax.swing.JFrame {
                 .addGap(16, 16, 16))
         );
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lester Greeks\\Downloads\\istockphoto-1158203819-612x612-removebg-preview.png")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon("filepath"));
         jLabel11.setText("jLabel11");
 
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lester Greeks\\Downloads\\depositphotos_378272964-stock-illustration-woman-laptop-sitting-nature-crossed-removebg-preview.png")); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon("filepath"));
         jLabel12.setText("jLabel12");
 
         javax.swing.GroupLayout kGradientPanel1Layout = new javax.swing.GroupLayout(kGradientPanel1);
@@ -417,8 +417,8 @@ public class registrationpage extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         
-        String fromEmail = "pranshumishra2003@yahoo.com";
-        String password = "tpouyiugqryfuokj";
+        String fromEmail = "email";
+        String password = "password";
         String toEmail = text4.getText(); 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.mail.yahoo.com");
