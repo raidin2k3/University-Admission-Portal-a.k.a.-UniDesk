@@ -199,7 +199,7 @@ public class user_welcome_window extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lester Greeks\\Downloads\\ezgif.com-gif-maker (1).gif")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon("filepath"));
 
         jLabel5.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
@@ -447,14 +447,14 @@ public class user_welcome_window extends javax.swing.JFrame {
                         JOptionPane.showMessageDialog(null,"Congrats! Your Application has been accepted");
                         Random r=new Random();
                         String num=String.valueOf(r.nextInt(100000,1000000));
-                        String fromEmail = "pranshumishra2003@yahoo.com";//user.getFromEmail(); //requires valid gmail id
-                        String password = "tpouyiugqryfuokj";//user.getPassword(); // correct password for gmail id
-                        String toEmail = "noidafam@gmail.com"; // can be any email id 
+                        String fromEmail = "email";
+                        String password = "password";
+                        String toEmail = "email";
                         Properties props = new Properties();
-                        props.put("mail.smtp.host", "smtp.mail.yahoo.com"); //SMTP Host
-                        props.put("mail.smtp.port", "587"); //TLS Port
-                        props.put("mail.smtp.auth", "true"); //enable authentication
-                        props.put("mail.smtp.starttls.enable", "true"); //enable STARTTLS
+                        props.put("mail.smtp.host", "smtp.mail.yahoo.com");
+                        props.put("mail.smtp.port", "587"); 
+                        props.put("mail.smtp.auth", "true"); 
+                        props.put("mail.smtp.starttls.enable", "true"); 
                         try{
                             Session session = Session.getDefaultInstance(props,
                             new jakarta.mail.Authenticator() {
@@ -473,7 +473,7 @@ public class user_welcome_window extends javax.swing.JFrame {
                                     + "Please find the attached offer letter\n"
                                     +"Application No. "+num+"/JKLUAD22");
                             MimeBodyPart msgprt2 = new MimeBodyPart();
-                            String filename = "C:\\Users\\Lester Greeks\\Documents\\Offer Letter.pdf";
+                            String filename = "filepath";
                             DataSource source = new FileDataSource(filename);
                             msgprt2.setDataHandler(new DataHandler(source));
                             msgprt2.setFileName(filename);
@@ -493,8 +493,8 @@ public class user_welcome_window extends javax.swing.JFrame {
                     }
                     else if(stat.equals(b)){
                         JOptionPane.showMessageDialog(null,"Sorry, you could not qualify");
-                        String fromEmail = "pranshumishra2003@yahoo.com";
-                        String password = "tpouyiugqryfuokj";
+                        String fromEmail = "email";
+                        String password = "password";
                         String toEmail = mail;
                         Properties props = new Properties();
                         props.put("mail.smtp.host", "smtp.mail.yahoo.com");
