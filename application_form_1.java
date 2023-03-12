@@ -108,7 +108,7 @@ public class application_form_1 extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(51, 51, 51));
         jPanel2.setPreferredSize(new java.awt.Dimension(543, 700));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lester Greeks\\Downloads\\imgonline-com-ua-resize-qEQoKNZjXkGaR6.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("filepath")); // NOI18N
         jLabel3.setText("jLabel3");
         jLabel3.setPreferredSize(new java.awt.Dimension(262, 215));
 
@@ -333,17 +333,17 @@ public class application_form_1 extends javax.swing.JFrame {
                 .addGap(79, 79, 79))
         );
 
-        jLabel16.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("Arial", 1, 18));
         jLabel16.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Logged in -> ");
 
-        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lester Greeks\\Downloads\\a505a8238d241ea60906a3723cd0444a-removebg-preview.png")); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon("filepath")); 
         jLabel19.setText("jLabel19");
 
-        jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lester Greeks\\Downloads\\Flat-Illustration-People-are-studying3-Graphics-7187616-1-1-580x388-removebg-preview.png")); // NOI18N
+        jLabel20.setIcon(new javax.swing.ImageIcon("filepath")); 
 
         javax.swing.GroupLayout kGradientPanel2Layout = new javax.swing.GroupLayout(kGradientPanel2);
         kGradientPanel2.setLayout(kGradientPanel2Layout);
