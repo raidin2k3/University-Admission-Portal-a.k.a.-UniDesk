@@ -209,10 +209,10 @@ public class unidesk_login_page extends javax.swing.JFrame {
                 .addContainerGap(21, Short.MAX_VALUE))
         );
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lester Greeks\\Downloads\\82-829950_college-student-cartoon-png-transparent-png-removebg-preview.png")); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon("filepath"));
         jLabel9.setText("jLabel9");
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lester Greeks\\Downloads\\png-clipart-student-school-cartoon-college-students-team-public-relations-removebg-preview.png")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon("filepath")); 
         jLabel8.setText("jLabel8");
 
         javax.swing.GroupLayout kGradientPanel1Layout = new javax.swing.GroupLayout(kGradientPanel1);
