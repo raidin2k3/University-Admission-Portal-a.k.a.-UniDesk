@@ -48,10 +48,10 @@ public class programs extends javax.swing.JFrame {
         kGradientPanel1.setkGradientFocus(1000);
         kGradientPanel1.setkStartColor(new java.awt.Color(204, 0, 51));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\Uni\\1st Yr\\2nd Sem\\OOP\\iet.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("filepath")); // NOI18N
         jScrollPane1.setViewportView(jLabel2);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\Uni\\1st Yr\\2nd Sem\\OOP\\im.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("filepath")); 
         jScrollPane2.setViewportView(jLabel3);
 
         javax.swing.GroupLayout kGradientPanel1Layout = new javax.swing.GroupLayout(kGradientPanel1);
