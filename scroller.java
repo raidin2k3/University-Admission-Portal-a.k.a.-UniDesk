@@ -38,7 +38,7 @@ public class scroller extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setForeground(new java.awt.Color(204, 204, 204));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lester Greeks\\Downloads\\output-onlinegiftools (1).gif")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("filepath")); // NOI18N
 
         jLabel2.setText("Loading....");
 
