@@ -151,7 +151,7 @@ public class admin_welcome_window extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Welcome to JKLU Admissions Portal");
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lester Greeks\\Downloads\\ezgif.com-gif-maker (1).gif")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon("filepath")); // NOI18N
 
         jTextArea1.setBackground(new java.awt.Color(51, 51, 51));
         jTextArea1.setColumns(20);
