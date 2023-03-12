@@ -509,8 +509,8 @@ public class aaplication_form_1_extended extends javax.swing.JFrame {
                     uww.setVisible(true);
                     setVisible(false);
                     conn.close();
-                    String fromEmail = "pranshumishra2003@yahoo.com";
-                    String password = "tpouyiugqryfuokj";
+                    String fromEmail = "email";
+                    String password = "password";
                     String toEmail = jLabel5.getText();
                     Properties props = new Properties();
                     props.put("mail.smtp.host", "smtp.mail.yahoo.com");
