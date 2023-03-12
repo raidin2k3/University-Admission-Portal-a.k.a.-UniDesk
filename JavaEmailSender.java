@@ -29,14 +29,14 @@ public class JavaEmailSender {
     public static void main(String[] args){
         Random r=new Random();
         String num=String.valueOf(r.nextInt(100000,1000000));
-        String fromEmail = "pranshumishra2003@yahoo.com";//user.getFromEmail(); //requires valid gmail id
-        String password = "tpouyiugqryfuokj";//user.getPassword(); // correct password for gmail id
-        String toEmail = "noidafam@gmail.com"; // can be any email id 
+        String fromEmail = "email";
+        String password = "password";
+        String toEmail = "email"; 
         Properties props = new Properties();
-        props.put("mail.smtp.host", "smtp.mail.yahoo.com"); //SMTP Host
-        props.put("mail.smtp.port", "587"); //TLS Port
-        props.put("mail.smtp.auth", "true"); //enable authentication
-        props.put("mail.smtp.starttls.enable", "true"); //enable STARTTLS
+        props.put("mail.smtp.host", "smtp.mail.yahoo.com"); 
+        props.put("mail.smtp.port", "587"); 
+        props.put("mail.smtp.auth", "true"); 
+        props.put("mail.smtp.starttls.enable", "true"); 
         try{
             Session session = Session.getDefaultInstance(props,
             new jakarta.mail.Authenticator() {
@@ -55,7 +55,7 @@ public class JavaEmailSender {
                     + "Please find the attached offer letter\n"
                     +"Application No. "+num+"/JKLUAD22");
             MimeBodyPart msgprt2 = new MimeBodyPart();
-            String filename = "C:\\Users\\Lester Greeks\\Documents\\Offer Letter.pdf";
+            String filename = "filepath";
             DataSource source = new FileDataSource(filename);
             msgprt2.setDataHandler(new DataHandler(source));
             msgprt2.setFileName(filename);
