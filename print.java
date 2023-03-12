@@ -81,7 +81,7 @@ public class print extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setForeground(new java.awt.Color(0, 0, 0));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lester Greeks\\Downloads\\jklulogo3_100x100.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("filepath"));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
