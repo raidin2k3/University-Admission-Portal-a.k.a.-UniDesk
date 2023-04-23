@@ -1,4 +1,4 @@
-# University-Admission-Portal-a.k.a.-UniDesk.Com
+# University-Admission-Portal-a.k.a.-UniDesk
 This is my first ever java project titled "University Admission Portal" a.k.a. UniDesk.Com as we call it.
 
 The project includes use of the following components-
